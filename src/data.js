@@ -1,6 +1,7 @@
 //todo: ID FOR EACH PROJECT
 import countriesPoster from './assets/images/countries-poster.jpg'
 import advicePoster from './assets/images/advice-app.poster.jpg'
+import shortUrlPoster from './assets/images/short-url-poster.jpg'
 
 export default [
     {
@@ -15,10 +16,19 @@ export default [
 
     {
         name: 'Advice Generator',
-        description: 'Generate a random advice when is suggested',
+        description: 'Generate a random advice each time users require it',
         poster: advicePoster,
         type: 'basic',
         site: 'https://advice-generator-orlando.netlify.app/',
         repository: 'https://github.com/OrlandoLeyva/Advice-generator'
+    },
+
+    {
+        name: 'Shortly URL APP',
+        description: 'Generate a short version of a valid URL',
+        poster: shortUrlPoster,
+        type: 'basic',
+        site: 'https://shortly-orlando.netlify.app/',
+        repository: 'https://github.com/OrlandoLeyva/URL-shortening'
     }
 ]
