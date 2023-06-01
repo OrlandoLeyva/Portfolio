@@ -1,8 +1,10 @@
+import orlandoLeyvaPicture from '../assets/images/orlando-picture-two.jpg'
+
 export default function Header(){
     return (
         <header>
             <div className="presentation-card">
-                <img src="/src/assets/BackgroundEraser_20230529_151926821~2.jpg" alt="orlando picture" />
+                <img src={orlandoLeyvaPicture} alt="orlando picture" />
                 <div className="card-details">
                     <h2>Orlando Leyva</h2>
                     <p>Frontend Developer</p>
