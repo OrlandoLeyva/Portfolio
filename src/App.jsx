@@ -12,7 +12,7 @@ function App() {
             <Header/>
             <main className=''>
                 <section className='contact-section'>
-                    <h2>contact</h2>
+                    <h2>Contact</h2>
                     I am open and ready to put my Energy, commitment and abilities in your hands. If you are interested in my services do not hesitate to contact me
                     <div className='contacts-container'>
                         <Contact 

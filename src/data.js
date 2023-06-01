@@ -7,7 +7,9 @@ export default [
         name: 'Countries App',
         description: 'In this project I used an API to access data from countries and display it properly',
         poster: countriesPoster,
-        type: 'basic'
+        type: 'basic',
+        site: 'https://the-countries.netlify.app/',
+        repository: 'https://github.com/OrlandoLeyva/rest-countries-api'
     },
 
     {
