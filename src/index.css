@@ -154,10 +154,8 @@ main {
 
 .contact p {
   color: var(--silver-lake-blue);
-}
-
-.contact p {
   border-bottom: 1px solid var(--silver-lake-blue);
+  font-size: .875rem;
 }
 
 .contact-icon {

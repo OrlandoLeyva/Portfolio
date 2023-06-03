@@ -13,7 +13,7 @@ function App() {
             <main className=''>
                 <section className='contact-section'>
                     <h2>Contact</h2>
-                    I am open and ready to put my Energy, commitment and abilities in your hands. If you are interested in my services do not hesitate to contact me
+                    I am open and ready to put my energy, commitment and abilities in your hands. If you are interested in my services do not hesitate to contact me:
                     <div className='contacts-container'>
                         <Contact 
                             to='https://www.linkedin.com/in/orlando-leyva/'
@@ -25,7 +25,7 @@ function App() {
                         <Contact 
                             to='https://github.com/OrlandoLeyva'
                             icon={githubIcon}
-                            text='Visit on GitHUb'
+                            text='Visit me on GitHub'
                             account='github'
                         />
 
