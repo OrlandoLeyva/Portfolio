@@ -4,6 +4,7 @@ import advicePoster from './assets/images/advice-app.poster.jpg'
 import shortlyPoster from './assets/images/shortly-poster.png'
 import quizzicalPoster from './assets/images/quizzical-poster.png'
 import formPoster from './assets/images/form-poster.jpg'
+import moviesSearcherPoster from './assets/images/Screenshot_20230603-110910.jpg'
 
 export default [
 
@@ -45,7 +46,7 @@ export default [
     {
         name: 'Movies searcher',
         description: 'This APP provides a interface for users to search for a movie, get a list of results and add a to movie to the Watchlist',
-        poster: formPoster,
+        poster: moviesSearcherPoster,
         type: 'react',
         site: 'https://movies-searcher-orlando.netlify.app/',
         repository: 'https://github.com/OrlandoLeyva/Movies-Searcher'
