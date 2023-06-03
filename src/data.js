@@ -43,11 +43,20 @@ export default [
         repository: 'https://github.com/OrlandoLeyva/quizzical-app'
     },
     {
+        name: 'Movies searcher',
+        description: 'This APP provides a interface for users to search for a movie, get a list of results and add a to movie to the Watchlist',
+        poster: formPoster,
+        type: 'react',
+        site: 'https://movies-searcher-orlando.netlify.app/',
+        repository: 'https://github.com/OrlandoLeyva/Movies-Searcher'
+    },
+
+    {
         name: 'Multi-step-form',
         description: 'This form walks users through four steps to acquire a service. This project showcases my proficiency In react development. I used context to share data across components without having to pass it using props through the components hierarchy. I used react-router 6 to manage the navigation between the different steps of the form. I created a Error component for displaying an users-friendly error message. Throughout the development process I used important hooks like: useState, useEffect, useRef, useNavigation. I really focused on implementing the best practices and creating a well-structured project.',
         poster: formPoster,
         type: 'react',
         site: 'https://multi-step-form-orlando.netlify.app/',
-        repository: 'https://github.com/OrlandoLeyva/quizzical-app'
+        repository: 'https://github.com/OrlandoLeyva/multi-step-form'
     }
 ]
